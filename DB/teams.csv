@@ -1,0 +1,1039 @@
+ref_team_id,team_id,season_year,team_name,city_name,isDefault
+1,1,2003,Atlanta,Atlanta,0
+2,1,2003,Atlanta Hawks,Atlanta,1
+3,2,2003,Boston,Boston,0
+4,2,2003,Boston Celtics,Boston,1
+5,3,2003,Brooklyn,New Jersey,0
+6,3,2003,Brooklyn Nets,New Jersey,1
+7,4,2003,Charlotte,Charlotte,0
+8,4,2003,Charlotte Hornets,Charlotte,1
+9,5,2003,Chicago,Chicago,0
+10,5,2003,Chicago Bulls,Chicago,1
+11,6,2003,Cleveland,Cleveland,0
+12,6,2003,Cleveland Cavaliers,Cleveland,1
+13,7,2003,Dallas,Dallas,0
+14,7,2003,Dallas Mavericks,Dallas,1
+15,8,2003,Denver,Denver,0
+16,8,2003,Denver Nuggets,Denver,1
+17,9,2003,Detroit,Detroit,0
+18,9,2003,Detroit Pistons,Detroit,1
+19,10,2003,Golden State,Golden State,0
+20,10,2003,Golden State Warriors,Golden State,1
+21,11,2003,Houston,Houston,0
+22,11,2003,Houston Rockets,Houston,1
+23,12,2003,Indiana,Indiana,0
+24,12,2003,Indiana Pacers,Indiana,1
+25,30,2003,Los Angeles Clippers,Los Angeles,1
+26,13,2003,Los Angeles Lakers,Los Angeles,1
+27,14,2003,Memphis,Memphis,0
+28,14,2003,Memphis Grizzlies,Memphis,1
+29,15,2003,Miami,Miami,0
+30,15,2003,Miami Heat,Miami,1
+31,16,2003,Milwaukee,Milwaukee,0
+32,16,2003,Milwaukee Bucks,Milwaukee,1
+33,17,2003,Minnesota,Minnesota,0
+34,17,2003,Minnesota Timberwolves,Minnesota,1
+35,18,2003,New Orleans,New Orleans,0
+36,18,2003,New Orleans Pelicans,New Orleans,1
+37,19,2003,New York,New York,0
+38,19,2003,New York Knicks,New York,1
+39,19,2003,NY Knicks,New York,0
+40,20,2003,Oklahoma City,Seattle,0
+41,20,2003,Oklahoma City Thunder,Seattle,1
+42,21,2003,Orlando,Orlando,0
+43,21,2003,Orlando Magic,Orlando,1
+44,22,2003,Philadelphia,Philadelphia,0
+45,22,2003,Philadelphia 76ers,Philadelphia,1
+46,23,2003,Phoenix,Phoenix,0
+47,23,2003,Phoenix Suns,Phoenix,1
+48,24,2003,Portland,Portland,0
+49,24,2003,Portland Trail Blazers,Portland,1
+50,25,2003,Sacramento,Sacramento,0
+51,25,2003,Sacramento Kings,Sacramento,1
+52,26,2003,San Antonio,San Antonio,0
+53,26,2003,San Antonio Spurs,San Antonio,1
+54,27,2003,Toronto,Toronto,0
+55,27,2003,Toronto Raptors,Toronto,1
+56,28,2003,Utah,Utah,0
+57,28,2003,Utah Jazz,Utah,1
+58,29,2003,Washington,Washington,0
+59,29,2003,Washington Wizards,Washington,1
+60,1,2004,Atlanta,Atlanta,0
+61,1,2004,Atlanta Hawks,Atlanta,1
+62,2,2004,Boston,Boston,0
+63,2,2004,Boston Celtics,Boston,1
+64,3,2004,Brooklyn,New Jersey,0
+65,3,2004,Brooklyn Nets,New Jersey,1
+66,4,2004,Charlotte,Charlotte,0
+67,4,2004,Charlotte Hornets,Charlotte,1
+68,5,2004,Chicago,Chicago,0
+69,5,2004,Chicago Bulls,Chicago,1
+70,6,2004,Cleveland,Cleveland,0
+71,6,2004,Cleveland Cavaliers,Cleveland,1
+72,7,2004,Dallas,Dallas,0
+73,7,2004,Dallas Mavericks,Dallas,1
+74,8,2004,Denver,Denver,0
+75,8,2004,Denver Nuggets,Denver,1
+76,9,2004,Detroit,Detroit,0
+77,9,2004,Detroit Pistons,Detroit,1
+78,10,2004,Golden State,Golden State,0
+79,10,2004,Golden State Warriors,Golden State,1
+80,11,2004,Houston,Houston,0
+81,11,2004,Houston Rockets,Houston,1
+82,12,2004,Indiana,Indiana,0
+83,12,2004,Indiana Pacers,Indiana,1
+84,30,2004,Los Angeles Clippers,Los Angeles,1
+85,13,2004,Los Angeles Lakers,Los Angeles,1
+86,14,2004,Memphis,Memphis,0
+87,14,2004,Memphis Grizzlies,Memphis,1
+88,15,2004,Miami,Miami,0
+89,15,2004,Miami Heat,Miami,1
+90,16,2004,Milwaukee,Milwaukee,0
+91,16,2004,Milwaukee Bucks,Milwaukee,1
+92,17,2004,Minnesota,Minnesota,0
+93,17,2004,Minnesota Timberwolves,Minnesota,1
+94,18,2004,New Orleans,New Orleans,0
+95,18,2004,New Orleans Pelicans,New Orleans,1
+96,19,2004,New York,New York,0
+97,19,2004,New York Knicks,New York,1
+98,19,2004,NY Knicks,New York,0
+99,20,2004,Oklahoma City,Seattle,0
+100,20,2004,Oklahoma City Thunder,Seattle,1
+101,21,2004,Orlando,Orlando,0
+102,21,2004,Orlando Magic,Orlando,1
+103,22,2004,Philadelphia,Philadelphia,0
+104,22,2004,Philadelphia 76ers,Philadelphia,1
+105,23,2004,Phoenix,Phoenix,0
+106,23,2004,Phoenix Suns,Phoenix,1
+107,24,2004,Portland,Portland,0
+108,24,2004,Portland Trail Blazers,Portland,1
+109,25,2004,Sacramento,Sacramento,0
+110,25,2004,Sacramento Kings,Sacramento,1
+111,26,2004,San Antonio,San Antonio,0
+112,26,2004,San Antonio Spurs,San Antonio,1
+113,27,2004,Toronto,Toronto,0
+114,27,2004,Toronto Raptors,Toronto,1
+115,28,2004,Utah,Utah,0
+116,28,2004,Utah Jazz,Utah,1
+117,29,2004,Washington,Washington,0
+118,29,2004,Washington Wizards,Washington,1
+119,1,2005,Atlanta,Atlanta,0
+120,1,2005,Atlanta Hawks,Atlanta,1
+121,2,2005,Boston,Boston,0
+122,2,2005,Boston Celtics,Boston,1
+123,3,2005,Brooklyn,New Jersey,0
+124,3,2005,Brooklyn Nets,New Jersey,1
+125,4,2005,Charlotte,Charlotte,0
+126,4,2005,Charlotte Hornets,Charlotte,1
+127,5,2005,Chicago,Chicago,0
+128,5,2005,Chicago Bulls,Chicago,1
+129,6,2005,Cleveland,Cleveland,0
+130,6,2005,Cleveland Cavaliers,Cleveland,1
+131,7,2005,Dallas,Dallas,0
+132,7,2005,Dallas Mavericks,Dallas,1
+133,8,2005,Denver,Denver,0
+134,8,2005,Denver Nuggets,Denver,1
+135,9,2005,Detroit,Detroit,0
+136,9,2005,Detroit Pistons,Detroit,1
+137,10,2005,Golden State,Golden State,0
+138,10,2005,Golden State Warriors,Golden State,1
+139,11,2005,Houston,Houston,0
+140,11,2005,Houston Rockets,Houston,1
+141,12,2005,Indiana,Indiana,0
+142,12,2005,Indiana Pacers,Indiana,1
+143,30,2005,Los Angeles Clippers,Los Angeles,1
+144,13,2005,Los Angeles Lakers,Los Angeles,1
+145,14,2005,Memphis,Memphis,0
+146,14,2005,Memphis Grizzlies,Memphis,1
+147,15,2005,Miami,Miami,0
+148,15,2005,Miami Heat,Miami,1
+149,16,2005,Milwaukee,Milwaukee,0
+150,16,2005,Milwaukee Bucks,Milwaukee,1
+151,17,2005,Minnesota,Minnesota,0
+152,17,2005,Minnesota Timberwolves,Minnesota,1
+153,18,2005,New Orleans,New Orleans,0
+154,18,2005,New Orleans Pelicans,New Orleans,1
+155,19,2005,New York,New York,0
+156,19,2005,New York Knicks,New York,1
+157,19,2005,NY Knicks,New York,0
+158,20,2005,Oklahoma City,Seattle,0
+159,20,2005,Oklahoma City Thunder,Seattle,1
+160,21,2005,Orlando,Orlando,0
+161,21,2005,Orlando Magic,Orlando,1
+162,22,2005,Philadelphia,Philadelphia,0
+163,22,2005,Philadelphia 76ers,Philadelphia,1
+164,23,2005,Phoenix,Phoenix,0
+165,23,2005,Phoenix Suns,Phoenix,1
+166,24,2005,Portland,Portland,0
+167,24,2005,Portland Trail Blazers,Portland,1
+168,25,2005,Sacramento,Sacramento,0
+169,25,2005,Sacramento Kings,Sacramento,1
+170,26,2005,San Antonio,San Antonio,0
+171,26,2005,San Antonio Spurs,San Antonio,1
+172,27,2005,Toronto,Toronto,0
+173,27,2005,Toronto Raptors,Toronto,1
+174,28,2005,Utah,Utah,0
+175,28,2005,Utah Jazz,Utah,1
+176,29,2005,Washington,Washington,0
+177,29,2005,Washington Wizards,Washington,1
+178,1,2006,Atlanta,Atlanta,0
+179,1,2006,Atlanta Hawks,Atlanta,1
+180,2,2006,Boston,Boston,0
+181,2,2006,Boston Celtics,Boston,1
+182,3,2006,Brooklyn,New Jersey,0
+183,3,2006,Brooklyn Nets,New Jersey,1
+184,4,2006,Charlotte,Charlotte,0
+185,4,2006,Charlotte Hornets,Charlotte,1
+186,5,2006,Chicago,Chicago,0
+187,5,2006,Chicago Bulls,Chicago,1
+188,6,2006,Cleveland,Cleveland,0
+189,6,2006,Cleveland Cavaliers,Cleveland,1
+190,7,2006,Dallas,Dallas,0
+191,7,2006,Dallas Mavericks,Dallas,1
+192,8,2006,Denver,Denver,0
+193,8,2006,Denver Nuggets,Denver,1
+194,9,2006,Detroit,Detroit,0
+195,9,2006,Detroit Pistons,Detroit,1
+196,10,2006,Golden State,Golden State,0
+197,10,2006,Golden State Warriors,Golden State,1
+198,11,2006,Houston,Houston,0
+199,11,2006,Houston Rockets,Houston,1
+200,12,2006,Indiana,Indiana,0
+201,12,2006,Indiana Pacers,Indiana,1
+202,30,2006,Los Angeles Clippers,Los Angeles,1
+203,13,2006,Los Angeles Lakers,Los Angeles,1
+204,14,2006,Memphis,Memphis,0
+205,14,2006,Memphis Grizzlies,Memphis,1
+206,15,2006,Miami,Miami,0
+207,15,2006,Miami Heat,Miami,1
+208,16,2006,Milwaukee,Milwaukee,0
+209,16,2006,Milwaukee Bucks,Milwaukee,1
+210,17,2006,Minnesota,Minnesota,0
+211,17,2006,Minnesota Timberwolves,Minnesota,1
+212,18,2006,New Orleans,New Orleans,0
+213,18,2006,New Orleans Pelicans,New Orleans,1
+214,19,2006,New York,New York,0
+215,19,2006,New York Knicks,New York,1
+216,19,2006,NY Knicks,New York,0
+217,20,2006,Oklahoma City,Seattle,0
+218,20,2006,Oklahoma City Thunder,Seattle,1
+219,21,2006,Orlando,Orlando,0
+220,21,2006,Orlando Magic,Orlando,1
+221,22,2006,Philadelphia,Philadelphia,0
+222,22,2006,Philadelphia 76ers,Philadelphia,1
+223,23,2006,Phoenix,Phoenix,0
+224,23,2006,Phoenix Suns,Phoenix,1
+225,24,2006,Portland,Portland,0
+226,24,2006,Portland Trail Blazers,Portland,1
+227,25,2006,Sacramento,Sacramento,0
+228,25,2006,Sacramento Kings,Sacramento,1
+229,26,2006,San Antonio,San Antonio,0
+230,26,2006,San Antonio Spurs,San Antonio,1
+231,27,2006,Toronto,Toronto,0
+232,27,2006,Toronto Raptors,Toronto,1
+233,28,2006,Utah,Utah,0
+234,28,2006,Utah Jazz,Utah,1
+235,29,2006,Washington,Washington,0
+236,29,2006,Washington Wizards,Washington,1
+237,1,2007,Atlanta,Atlanta,0
+238,1,2007,Atlanta Hawks,Atlanta,1
+239,2,2007,Boston,Boston,0
+240,2,2007,Boston Celtics,Boston,1
+241,3,2007,Brooklyn,New Jersey,0
+242,3,2007,Brooklyn Nets,New Jersey,1
+243,4,2007,Charlotte,Charlotte,0
+244,4,2007,Charlotte Hornets,Charlotte,1
+245,5,2007,Chicago,Chicago,0
+246,5,2007,Chicago Bulls,Chicago,1
+247,6,2007,Cleveland,Cleveland,0
+248,6,2007,Cleveland Cavaliers,Cleveland,1
+249,7,2007,Dallas,Dallas,0
+250,7,2007,Dallas Mavericks,Dallas,1
+251,8,2007,Denver,Denver,0
+252,8,2007,Denver Nuggets,Denver,1
+253,9,2007,Detroit,Detroit,0
+254,9,2007,Detroit Pistons,Detroit,1
+255,10,2007,Golden State,Golden State,0
+256,10,2007,Golden State Warriors,Golden State,1
+257,11,2007,Houston,Houston,0
+258,11,2007,Houston Rockets,Houston,1
+259,12,2007,Indiana,Indiana,0
+260,12,2007,Indiana Pacers,Indiana,1
+261,30,2007,Los Angeles Clippers,Los Angeles,1
+262,13,2007,Los Angeles Lakers,Los Angeles,1
+263,14,2007,Memphis,Memphis,0
+264,14,2007,Memphis Grizzlies,Memphis,1
+265,15,2007,Miami,Miami,0
+266,15,2007,Miami Heat,Miami,1
+267,16,2007,Milwaukee,Milwaukee,0
+268,16,2007,Milwaukee Bucks,Milwaukee,1
+269,17,2007,Minnesota,Minnesota,0
+270,17,2007,Minnesota Timberwolves,Minnesota,1
+271,18,2007,New Orleans,New Orleans,0
+272,18,2007,New Orleans Pelicans,New Orleans,1
+273,19,2007,New York,New York,0
+274,19,2007,New York Knicks,New York,1
+275,19,2007,NY Knicks,New York,0
+276,20,2007,Oklahoma City,Seattle,0
+277,20,2007,Oklahoma City Thunder,Seattle,1
+278,21,2007,Orlando,Orlando,0
+279,21,2007,Orlando Magic,Orlando,1
+280,22,2007,Philadelphia,Philadelphia,0
+281,22,2007,Philadelphia 76ers,Philadelphia,1
+282,23,2007,Phoenix,Phoenix,0
+283,23,2007,Phoenix Suns,Phoenix,1
+284,24,2007,Portland,Portland,0
+285,24,2007,Portland Trail Blazers,Portland,1
+286,25,2007,Sacramento,Sacramento,0
+287,25,2007,Sacramento Kings,Sacramento,1
+288,26,2007,San Antonio,San Antonio,0
+289,26,2007,San Antonio Spurs,San Antonio,1
+290,27,2007,Toronto,Toronto,0
+291,27,2007,Toronto Raptors,Toronto,1
+292,28,2007,Utah,Utah,0
+293,28,2007,Utah Jazz,Utah,1
+294,29,2007,Washington,Washington,0
+295,29,2007,Washington Wizards,Washington,1
+296,1,2008,Atlanta,Atlanta,0
+297,1,2008,Atlanta Hawks,Atlanta,1
+298,2,2008,Boston,Boston,0
+299,2,2008,Boston Celtics,Boston,1
+300,3,2008,Brooklyn,New Jersey,0
+301,3,2008,Brooklyn Nets,New Jersey,1
+302,4,2008,Charlotte,Charlotte,0
+303,4,2008,Charlotte Hornets,Charlotte,1
+304,5,2008,Chicago,Chicago,0
+305,5,2008,Chicago Bulls,Chicago,1
+306,6,2008,Cleveland,Cleveland,0
+307,6,2008,Cleveland Cavaliers,Cleveland,1
+308,7,2008,Dallas,Dallas,0
+309,7,2008,Dallas Mavericks,Dallas,1
+310,8,2008,Denver,Denver,0
+311,8,2008,Denver Nuggets,Denver,1
+312,9,2008,Detroit,Detroit,0
+313,9,2008,Detroit Pistons,Detroit,1
+314,10,2008,Golden State,Golden State,0
+315,10,2008,Golden State Warriors,Golden State,1
+316,11,2008,Houston,Houston,0
+317,11,2008,Houston Rockets,Houston,1
+318,12,2008,Indiana,Indiana,0
+319,12,2008,Indiana Pacers,Indiana,1
+320,30,2008,Los Angeles Clippers,Los Angeles,1
+321,13,2008,Los Angeles Lakers,Los Angeles,1
+322,14,2008,Memphis,Memphis,0
+323,14,2008,Memphis Grizzlies,Memphis,1
+324,15,2008,Miami,Miami,0
+325,15,2008,Miami Heat,Miami,1
+326,16,2008,Milwaukee,Milwaukee,0
+327,16,2008,Milwaukee Bucks,Milwaukee,1
+328,17,2008,Minnesota,Minnesota,0
+329,17,2008,Minnesota Timberwolves,Minnesota,1
+330,18,2008,New Orleans,New Orleans,0
+331,18,2008,New Orleans Pelicans,New Orleans,1
+332,19,2008,New York,New York,0
+333,19,2008,New York Knicks,New York,1
+334,19,2008,NY Knicks,New York,0
+335,20,2008,Oklahoma City,Oklahoma City,0
+336,20,2008,Oklahoma City Thunder,Oklahoma City,1
+337,21,2008,Orlando,Orlando,0
+338,21,2008,Orlando Magic,Orlando,1
+339,22,2008,Philadelphia,Philadelphia,0
+340,22,2008,Philadelphia 76ers,Philadelphia,1
+341,23,2008,Phoenix,Phoenix,0
+342,23,2008,Phoenix Suns,Phoenix,1
+343,24,2008,Portland,Portland,0
+344,24,2008,Portland Trail Blazers,Portland,1
+345,25,2008,Sacramento,Sacramento,0
+346,25,2008,Sacramento Kings,Sacramento,1
+347,26,2008,San Antonio,San Antonio,0
+348,26,2008,San Antonio Spurs,San Antonio,1
+349,27,2008,Toronto,Toronto,0
+350,27,2008,Toronto Raptors,Toronto,1
+351,28,2008,Utah,Utah,0
+352,28,2008,Utah Jazz,Utah,1
+353,29,2008,Washington,Washington,0
+354,29,2008,Washington Wizards,Washington,1
+355,1,2009,Atlanta,Atlanta,0
+356,1,2009,Atlanta Hawks,Atlanta,1
+357,2,2009,Boston,Boston,0
+358,2,2009,Boston Celtics,Boston,1
+359,3,2009,Brooklyn,New Jersey,0
+360,3,2009,Brooklyn Nets,New Jersey,1
+361,4,2009,Charlotte,Charlotte,0
+362,4,2009,Charlotte Hornets,Charlotte,1
+363,5,2009,Chicago,Chicago,0
+364,5,2009,Chicago Bulls,Chicago,1
+365,6,2009,Cleveland,Cleveland,0
+366,6,2009,Cleveland Cavaliers,Cleveland,1
+367,7,2009,Dallas,Dallas,0
+368,7,2009,Dallas Mavericks,Dallas,1
+369,8,2009,Denver,Denver,0
+370,8,2009,Denver Nuggets,Denver,1
+371,9,2009,Detroit,Detroit,0
+372,9,2009,Detroit Pistons,Detroit,1
+373,10,2009,Golden State,Golden State,0
+374,10,2009,Golden State Warriors,Golden State,1
+375,11,2009,Houston,Houston,0
+376,11,2009,Houston Rockets,Houston,1
+377,12,2009,Indiana,Indiana,0
+378,12,2009,Indiana Pacers,Indiana,1
+379,30,2009,Los Angeles Clippers,Los Angeles,1
+380,13,2009,Los Angeles Lakers,Los Angeles,1
+381,14,2009,Memphis,Memphis,0
+382,14,2009,Memphis Grizzlies,Memphis,1
+383,15,2009,Miami,Miami,0
+384,15,2009,Miami Heat,Miami,1
+385,16,2009,Milwaukee,Milwaukee,0
+386,16,2009,Milwaukee Bucks,Milwaukee,1
+387,17,2009,Minnesota,Minnesota,0
+388,17,2009,Minnesota Timberwolves,Minnesota,1
+389,18,2009,New Orleans,New Orleans,0
+390,18,2009,New Orleans Pelicans,New Orleans,1
+391,19,2009,New York,New York,0
+392,19,2009,New York Knicks,New York,1
+393,19,2009,NY Knicks,New York,0
+394,20,2009,Oklahoma City,Oklahoma City,0
+395,20,2009,Oklahoma City Thunder,Oklahoma City,1
+396,21,2009,Orlando,Orlando,0
+397,21,2009,Orlando Magic,Orlando,1
+398,22,2009,Philadelphia,Philadelphia,0
+399,22,2009,Philadelphia 76ers,Philadelphia,1
+400,23,2009,Phoenix,Phoenix,0
+401,23,2009,Phoenix Suns,Phoenix,1
+402,24,2009,Portland,Portland,0
+403,24,2009,Portland Trail Blazers,Portland,1
+404,25,2009,Sacramento,Sacramento,0
+405,25,2009,Sacramento Kings,Sacramento,1
+406,26,2009,San Antonio,San Antonio,0
+407,26,2009,San Antonio Spurs,San Antonio,1
+408,27,2009,Toronto,Toronto,0
+409,27,2009,Toronto Raptors,Toronto,1
+410,28,2009,Utah,Utah,0
+411,28,2009,Utah Jazz,Utah,1
+412,29,2009,Washington,Washington,0
+413,29,2009,Washington Wizards,Washington,1
+414,1,2010,Atlanta,Atlanta,0
+415,1,2010,Atlanta Hawks,Atlanta,1
+416,2,2010,Boston,Boston,0
+417,2,2010,Boston Celtics,Boston,1
+418,3,2010,Brooklyn,New Jersey,0
+419,3,2010,Brooklyn Nets,New Jersey,1
+420,4,2010,Charlotte,Charlotte,0
+421,4,2010,Charlotte Hornets,Charlotte,1
+422,5,2010,Chicago,Chicago,0
+423,5,2010,Chicago Bulls,Chicago,1
+424,6,2010,Cleveland,Cleveland,0
+425,6,2010,Cleveland Cavaliers,Cleveland,1
+426,7,2010,Dallas,Dallas,0
+427,7,2010,Dallas Mavericks,Dallas,1
+428,8,2010,Denver,Denver,0
+429,8,2010,Denver Nuggets,Denver,1
+430,9,2010,Detroit,Detroit,0
+431,9,2010,Detroit Pistons,Detroit,1
+432,10,2010,Golden State,Golden State,0
+433,10,2010,Golden State Warriors,Golden State,1
+434,11,2010,Houston,Houston,0
+435,11,2010,Houston Rockets,Houston,1
+436,12,2010,Indiana,Indiana,0
+437,12,2010,Indiana Pacers,Indiana,1
+438,30,2010,Los Angeles Clippers,Los Angeles,1
+439,13,2010,Los Angeles Lakers,Los Angeles,1
+440,14,2010,Memphis,Memphis,0
+441,14,2010,Memphis Grizzlies,Memphis,1
+442,15,2010,Miami,Miami,0
+443,15,2010,Miami Heat,Miami,1
+444,16,2010,Milwaukee,Milwaukee,0
+445,16,2010,Milwaukee Bucks,Milwaukee,1
+446,17,2010,Minnesota,Minnesota,0
+447,17,2010,Minnesota Timberwolves,Minnesota,1
+448,18,2010,New Orleans,New Orleans,0
+449,18,2010,New Orleans Pelicans,New Orleans,1
+450,19,2010,New York,New York,0
+451,19,2010,New York Knicks,New York,1
+452,19,2010,NY Knicks,New York,0
+453,20,2010,Oklahoma City,Oklahoma City,0
+454,20,2010,Oklahoma City Thunder,Oklahoma City,1
+455,21,2010,Orlando,Orlando,0
+456,21,2010,Orlando Magic,Orlando,1
+457,22,2010,Philadelphia,Philadelphia,0
+458,22,2010,Philadelphia 76ers,Philadelphia,1
+459,23,2010,Phoenix,Phoenix,0
+460,23,2010,Phoenix Suns,Phoenix,1
+461,24,2010,Portland,Portland,0
+462,24,2010,Portland Trail Blazers,Portland,1
+463,25,2010,Sacramento,Sacramento,0
+464,25,2010,Sacramento Kings,Sacramento,1
+465,26,2010,San Antonio,San Antonio,0
+466,26,2010,San Antonio Spurs,San Antonio,1
+467,27,2010,Toronto,Toronto,0
+468,27,2010,Toronto Raptors,Toronto,1
+469,28,2010,Utah,Utah,0
+470,28,2010,Utah Jazz,Utah,1
+471,29,2010,Washington,Washington,0
+472,29,2010,Washington Wizards,Washington,1
+473,1,2011,Atlanta,Atlanta,0
+474,1,2011,Atlanta Hawks,Atlanta,1
+475,2,2011,Boston,Boston,0
+476,2,2011,Boston Celtics,Boston,1
+477,3,2011,Brooklyn,New Jersey,0
+478,3,2011,Brooklyn Nets,New Jersey,1
+479,4,2011,Charlotte,Charlotte,0
+480,4,2011,Charlotte Hornets,Charlotte,1
+481,5,2011,Chicago,Chicago,0
+482,5,2011,Chicago Bulls,Chicago,1
+483,6,2011,Cleveland,Cleveland,0
+484,6,2011,Cleveland Cavaliers,Cleveland,1
+485,7,2011,Dallas,Dallas,0
+486,7,2011,Dallas Mavericks,Dallas,1
+487,8,2011,Denver,Denver,0
+488,8,2011,Denver Nuggets,Denver,1
+489,9,2011,Detroit,Detroit,0
+490,9,2011,Detroit Pistons,Detroit,1
+491,10,2011,Golden State,Golden State,0
+492,10,2011,Golden State Warriors,Golden State,1
+493,11,2011,Houston,Houston,0
+494,11,2011,Houston Rockets,Houston,1
+495,12,2011,Indiana,Indiana,0
+496,12,2011,Indiana Pacers,Indiana,1
+497,30,2011,Los Angeles Clippers,Los Angeles,1
+498,13,2011,Los Angeles Lakers,Los Angeles,1
+499,14,2011,Memphis,Memphis,0
+500,14,2011,Memphis Grizzlies,Memphis,1
+501,15,2011,Miami,Miami,0
+502,15,2011,Miami Heat,Miami,1
+503,16,2011,Milwaukee,Milwaukee,0
+504,16,2011,Milwaukee Bucks,Milwaukee,1
+505,17,2011,Minnesota,Minnesota,0
+506,17,2011,Minnesota Timberwolves,Minnesota,1
+507,18,2011,New Orleans,New Orleans,0
+508,18,2011,New Orleans Pelicans,New Orleans,1
+509,19,2011,New York,New York,0
+510,19,2011,New York Knicks,New York,1
+511,19,2011,NY Knicks,New York,0
+512,20,2011,Oklahoma City,Oklahoma City,0
+513,20,2011,Oklahoma City Thunder,Oklahoma City,1
+514,21,2011,Orlando,Orlando,0
+515,21,2011,Orlando Magic,Orlando,1
+516,22,2011,Philadelphia,Philadelphia,0
+517,22,2011,Philadelphia 76ers,Philadelphia,1
+518,23,2011,Phoenix,Phoenix,0
+519,23,2011,Phoenix Suns,Phoenix,1
+520,24,2011,Portland,Portland,0
+521,24,2011,Portland Trail Blazers,Portland,1
+522,25,2011,Sacramento,Sacramento,0
+523,25,2011,Sacramento Kings,Sacramento,1
+524,26,2011,San Antonio,San Antonio,0
+525,26,2011,San Antonio Spurs,San Antonio,1
+526,27,2011,Toronto,Toronto,0
+527,27,2011,Toronto Raptors,Toronto,1
+528,28,2011,Utah,Utah,0
+529,28,2011,Utah Jazz,Utah,1
+530,29,2011,Washington,Washington,0
+531,29,2011,Washington Wizards,Washington,1
+532,1,2012,Atlanta,Atlanta,0
+533,1,2012,Atlanta Hawks,Atlanta,1
+534,2,2012,Boston,Boston,0
+535,2,2012,Boston Celtics,Boston,1
+536,3,2012,Brooklyn,Brooklyn,0
+537,3,2012,Brooklyn Nets,Brooklyn,1
+538,4,2012,Charlotte,Charlotte,0
+539,4,2012,Charlotte Hornets,Charlotte,1
+540,5,2012,Chicago,Chicago,0
+541,5,2012,Chicago Bulls,Chicago,1
+542,6,2012,Cleveland,Cleveland,0
+543,6,2012,Cleveland Cavaliers,Cleveland,1
+544,7,2012,Dallas,Dallas,0
+545,7,2012,Dallas Mavericks,Dallas,1
+546,8,2012,Denver,Denver,0
+547,8,2012,Denver Nuggets,Denver,1
+548,9,2012,Detroit,Detroit,0
+549,9,2012,Detroit Pistons,Detroit,1
+550,10,2012,Golden State,Golden State,0
+551,10,2012,Golden State Warriors,Golden State,1
+552,11,2012,Houston,Houston,0
+553,11,2012,Houston Rockets,Houston,1
+554,12,2012,Indiana,Indiana,0
+555,12,2012,Indiana Pacers,Indiana,1
+556,30,2012,Los Angeles Clippers,Los Angeles,1
+557,13,2012,Los Angeles Lakers,Los Angeles,1
+558,14,2012,Memphis,Memphis,0
+559,14,2012,Memphis Grizzlies,Memphis,1
+560,15,2012,Miami,Miami,0
+561,15,2012,Miami Heat,Miami,1
+562,16,2012,Milwaukee,Milwaukee,0
+563,16,2012,Milwaukee Bucks,Milwaukee,1
+564,17,2012,Minnesota,Minnesota,0
+565,17,2012,Minnesota Timberwolves,Minnesota,1
+566,18,2012,New Orleans,New Orleans,0
+567,18,2012,New Orleans Pelicans,New Orleans,1
+568,19,2012,New York,New York,0
+569,19,2012,New York Knicks,New York,1
+570,19,2012,NY Knicks,New York,0
+571,20,2012,Oklahoma City,Oklahoma City,0
+572,20,2012,Oklahoma City Thunder,Oklahoma City,1
+573,21,2012,Orlando,Orlando,0
+574,21,2012,Orlando Magic,Orlando,1
+575,22,2012,Philadelphia,Philadelphia,0
+576,22,2012,Philadelphia 76ers,Philadelphia,1
+577,23,2012,Phoenix,Phoenix,0
+578,23,2012,Phoenix Suns,Phoenix,1
+579,24,2012,Portland,Portland,0
+580,24,2012,Portland Trail Blazers,Portland,1
+581,25,2012,Sacramento,Sacramento,0
+582,25,2012,Sacramento Kings,Sacramento,1
+583,26,2012,San Antonio,San Antonio,0
+584,26,2012,San Antonio Spurs,San Antonio,1
+585,27,2012,Toronto,Toronto,0
+586,27,2012,Toronto Raptors,Toronto,1
+587,28,2012,Utah,Utah,0
+588,28,2012,Utah Jazz,Utah,1
+589,29,2012,Washington,Washington,0
+590,29,2012,Washington Wizards,Washington,1
+591,1,2013,Atlanta,Atlanta,0
+592,1,2013,Atlanta Hawks,Atlanta,1
+593,2,2013,Boston,Boston,0
+594,2,2013,Boston Celtics,Boston,1
+595,3,2013,Brooklyn,Brooklyn,0
+596,3,2013,Brooklyn Nets,Brooklyn,1
+597,4,2013,Charlotte,Charlotte,0
+598,4,2013,Charlotte Hornets,Charlotte,1
+599,5,2013,Chicago,Chicago,0
+600,5,2013,Chicago Bulls,Chicago,1
+601,6,2013,Cleveland,Cleveland,0
+602,6,2013,Cleveland Cavaliers,Cleveland,1
+603,7,2013,Dallas,Dallas,0
+604,7,2013,Dallas Mavericks,Dallas,1
+605,8,2013,Denver,Denver,0
+606,8,2013,Denver Nuggets,Denver,1
+607,9,2013,Detroit,Detroit,0
+608,9,2013,Detroit Pistons,Detroit,1
+609,10,2013,Golden State,Golden State,0
+610,10,2013,Golden State Warriors,Golden State,1
+611,11,2013,Houston,Houston,0
+612,11,2013,Houston Rockets,Houston,1
+613,12,2013,Indiana,Indiana,0
+614,12,2013,Indiana Pacers,Indiana,1
+615,30,2013,Los Angeles Clippers,Los Angeles,1
+616,13,2013,Los Angeles Lakers,Los Angeles,1
+617,14,2013,Memphis,Memphis,0
+618,14,2013,Memphis Grizzlies,Memphis,1
+619,15,2013,Miami,Miami,0
+620,15,2013,Miami Heat,Miami,1
+621,16,2013,Milwaukee,Milwaukee,0
+622,16,2013,Milwaukee Bucks,Milwaukee,1
+623,17,2013,Minnesota,Minnesota,0
+624,17,2013,Minnesota Timberwolves,Minnesota,1
+625,18,2013,New Orleans,New Orleans,0
+626,18,2013,New Orleans Pelicans,New Orleans,1
+627,19,2013,New York,New York,0
+628,19,2013,New York Knicks,New York,1
+629,19,2013,NY Knicks,New York,0
+630,20,2013,Oklahoma City,Oklahoma City,0
+631,20,2013,Oklahoma City Thunder,Oklahoma City,1
+632,21,2013,Orlando,Orlando,0
+633,21,2013,Orlando Magic,Orlando,1
+634,22,2013,Philadelphia,Philadelphia,0
+635,22,2013,Philadelphia 76ers,Philadelphia,1
+636,23,2013,Phoenix,Phoenix,0
+637,23,2013,Phoenix Suns,Phoenix,1
+638,24,2013,Portland,Portland,0
+639,24,2013,Portland Trail Blazers,Portland,1
+640,25,2013,Sacramento,Sacramento,0
+641,25,2013,Sacramento Kings,Sacramento,1
+642,26,2013,San Antonio,San Antonio,0
+643,26,2013,San Antonio Spurs,San Antonio,1
+644,27,2013,Toronto,Toronto,0
+645,27,2013,Toronto Raptors,Toronto,1
+646,28,2013,Utah,Utah,0
+647,28,2013,Utah Jazz,Utah,1
+648,29,2013,Washington,Washington,0
+649,29,2013,Washington Wizards,Washington,1
+650,1,2014,Atlanta,Atlanta,0
+651,1,2014,Atlanta Hawks,Atlanta,1
+652,2,2014,Boston,Boston,0
+653,2,2014,Boston Celtics,Boston,1
+654,3,2014,Brooklyn,Brooklyn,0
+655,3,2014,Brooklyn Nets,Brooklyn,1
+656,4,2014,Charlotte,Charlotte,0
+657,4,2014,Charlotte Hornets,Charlotte,1
+658,5,2014,Chicago,Chicago,0
+659,5,2014,Chicago Bulls,Chicago,1
+660,6,2014,Cleveland,Cleveland,0
+661,6,2014,Cleveland Cavaliers,Cleveland,1
+662,7,2014,Dallas,Dallas,0
+663,7,2014,Dallas Mavericks,Dallas,1
+664,8,2014,Denver,Denver,0
+665,8,2014,Denver Nuggets,Denver,1
+666,9,2014,Detroit,Detroit,0
+667,9,2014,Detroit Pistons,Detroit,1
+668,10,2014,Golden State,Golden State,0
+669,10,2014,Golden State Warriors,Golden State,1
+670,11,2014,Houston,Houston,0
+671,11,2014,Houston Rockets,Houston,1
+672,12,2014,Indiana,Indiana,0
+673,12,2014,Indiana Pacers,Indiana,1
+674,30,2014,Los Angeles Clippers,Los Angeles,1
+675,13,2014,Los Angeles Lakers,Los Angeles,1
+676,14,2014,Memphis,Memphis,0
+677,14,2014,Memphis Grizzlies,Memphis,1
+678,15,2014,Miami,Miami,0
+679,15,2014,Miami Heat,Miami,1
+680,16,2014,Milwaukee,Milwaukee,0
+681,16,2014,Milwaukee Bucks,Milwaukee,1
+682,17,2014,Minnesota,Minnesota,0
+683,17,2014,Minnesota Timberwolves,Minnesota,1
+684,18,2014,New Orleans,New Orleans,0
+685,18,2014,New Orleans Pelicans,New Orleans,1
+686,19,2014,New York,New York,0
+687,19,2014,New York Knicks,New York,1
+688,19,2014,NY Knicks,New York,0
+689,20,2014,Oklahoma City,Oklahoma City,0
+690,20,2014,Oklahoma City Thunder,Oklahoma City,1
+691,21,2014,Orlando,Orlando,0
+692,21,2014,Orlando Magic,Orlando,1
+693,22,2014,Philadelphia,Philadelphia,0
+694,22,2014,Philadelphia 76ers,Philadelphia,1
+695,23,2014,Phoenix,Phoenix,0
+696,23,2014,Phoenix Suns,Phoenix,1
+697,24,2014,Portland,Portland,0
+698,24,2014,Portland Trail Blazers,Portland,1
+699,25,2014,Sacramento,Sacramento,0
+700,25,2014,Sacramento Kings,Sacramento,1
+701,26,2014,San Antonio,San Antonio,0
+702,26,2014,San Antonio Spurs,San Antonio,1
+703,27,2014,Toronto,Toronto,0
+704,27,2014,Toronto Raptors,Toronto,1
+705,28,2014,Utah,Utah,0
+706,28,2014,Utah Jazz,Utah,1
+707,29,2014,Washington,Washington,0
+708,29,2014,Washington Wizards,Washington,1
+709,1,2015,Atlanta,Atlanta,0
+710,1,2015,Atlanta Hawks,Atlanta,1
+711,2,2015,Boston,Boston,0
+712,2,2015,Boston Celtics,Boston,1
+713,3,2015,Brooklyn,Brooklyn,0
+714,3,2015,Brooklyn Nets,Brooklyn,1
+715,4,2015,Charlotte,Charlotte,0
+716,4,2015,Charlotte Hornets,Charlotte,1
+717,5,2015,Chicago,Chicago,0
+718,5,2015,Chicago Bulls,Chicago,1
+719,6,2015,Cleveland,Cleveland,0
+720,6,2015,Cleveland Cavaliers,Cleveland,1
+721,7,2015,Dallas,Dallas,0
+722,7,2015,Dallas Mavericks,Dallas,1
+723,8,2015,Denver,Denver,0
+724,8,2015,Denver Nuggets,Denver,1
+725,9,2015,Detroit,Detroit,0
+726,9,2015,Detroit Pistons,Detroit,1
+727,10,2015,Golden State,Golden State,0
+728,10,2015,Golden State Warriors,Golden State,1
+729,11,2015,Houston,Houston,0
+730,11,2015,Houston Rockets,Houston,1
+731,12,2015,Indiana,Indiana,0
+732,12,2015,Indiana Pacers,Indiana,1
+733,30,2015,Los Angeles Clippers,Los Angeles,1
+734,13,2015,Los Angeles Lakers,Los Angeles,1
+735,14,2015,Memphis,Memphis,0
+736,14,2015,Memphis Grizzlies,Memphis,1
+737,15,2015,Miami,Miami,0
+738,15,2015,Miami Heat,Miami,1
+739,16,2015,Milwaukee,Milwaukee,0
+740,16,2015,Milwaukee Bucks,Milwaukee,1
+741,17,2015,Minnesota,Minnesota,0
+742,17,2015,Minnesota Timberwolves,Minnesota,1
+743,18,2015,New Orleans,New Orleans,0
+744,18,2015,New Orleans Pelicans,New Orleans,1
+745,19,2015,New York,New York,0
+746,19,2015,New York Knicks,New York,1
+747,19,2015,NY Knicks,New York,0
+748,20,2015,Oklahoma City,Oklahoma City,0
+749,20,2015,Oklahoma City Thunder,Oklahoma City,1
+750,21,2015,Orlando,Orlando,0
+751,21,2015,Orlando Magic,Orlando,1
+752,22,2015,Philadelphia,Philadelphia,0
+753,22,2015,Philadelphia 76ers,Philadelphia,1
+754,23,2015,Phoenix,Phoenix,0
+755,23,2015,Phoenix Suns,Phoenix,1
+756,24,2015,Portland,Portland,0
+757,24,2015,Portland Trail Blazers,Portland,1
+758,25,2015,Sacramento,Sacramento,0
+759,25,2015,Sacramento Kings,Sacramento,1
+760,26,2015,San Antonio,San Antonio,0
+761,26,2015,San Antonio Spurs,San Antonio,1
+762,27,2015,Toronto,Toronto,0
+763,27,2015,Toronto Raptors,Toronto,1
+764,28,2015,Utah,Utah,0
+765,28,2015,Utah Jazz,Utah,1
+766,29,2015,Washington,Washington,0
+767,29,2015,Washington Wizards,Washington,1
+768,1,2016,Atlanta,Atlanta,0
+769,1,2016,Atlanta Hawks,Atlanta,1
+770,2,2016,Boston,Boston,0
+771,2,2016,Boston Celtics,Boston,1
+772,3,2016,Brooklyn,Brooklyn,0
+773,3,2016,Brooklyn Nets,Brooklyn,1
+774,4,2016,Charlotte,Charlotte,0
+775,4,2016,Charlotte Hornets,Charlotte,1
+776,5,2016,Chicago,Chicago,0
+777,5,2016,Chicago Bulls,Chicago,1
+778,6,2016,Cleveland,Cleveland,0
+779,6,2016,Cleveland Cavaliers,Cleveland,1
+780,7,2016,Dallas,Dallas,0
+781,7,2016,Dallas Mavericks,Dallas,1
+782,8,2016,Denver,Denver,0
+783,8,2016,Denver Nuggets,Denver,1
+784,9,2016,Detroit,Detroit,0
+785,9,2016,Detroit Pistons,Detroit,1
+786,10,2016,Golden State,Golden State,0
+787,10,2016,Golden State Warriors,Golden State,1
+788,11,2016,Houston,Houston,0
+789,11,2016,Houston Rockets,Houston,1
+790,12,2016,Indiana,Indiana,0
+791,12,2016,Indiana Pacers,Indiana,1
+792,30,2016,Los Angeles Clippers,Los Angeles,1
+793,13,2016,Los Angeles Lakers,Los Angeles,1
+794,14,2016,Memphis,Memphis,0
+795,14,2016,Memphis Grizzlies,Memphis,1
+796,15,2016,Miami,Miami,0
+797,15,2016,Miami Heat,Miami,1
+798,16,2016,Milwaukee,Milwaukee,0
+799,16,2016,Milwaukee Bucks,Milwaukee,1
+800,17,2016,Minnesota,Minnesota,0
+801,17,2016,Minnesota Timberwolves,Minnesota,1
+802,18,2016,New Orleans,New Orleans,0
+803,18,2016,New Orleans Pelicans,New Orleans,1
+804,19,2016,New York,New York,0
+805,19,2016,New York Knicks,New York,1
+806,19,2016,NY Knicks,New York,0
+807,20,2016,Oklahoma City,Oklahoma City,0
+808,20,2016,Oklahoma City Thunder,Oklahoma City,1
+809,21,2016,Orlando,Orlando,0
+810,21,2016,Orlando Magic,Orlando,1
+811,22,2016,Philadelphia,Philadelphia,0
+812,22,2016,Philadelphia 76ers,Philadelphia,1
+813,23,2016,Phoenix,Phoenix,0
+814,23,2016,Phoenix Suns,Phoenix,1
+815,24,2016,Portland,Portland,0
+816,24,2016,Portland Trail Blazers,Portland,1
+817,25,2016,Sacramento,Sacramento,0
+818,25,2016,Sacramento Kings,Sacramento,1
+819,26,2016,San Antonio,San Antonio,0
+820,26,2016,San Antonio Spurs,San Antonio,1
+821,27,2016,Toronto,Toronto,0
+822,27,2016,Toronto Raptors,Toronto,1
+823,28,2016,Utah,Utah,0
+824,28,2016,Utah Jazz,Utah,1
+825,29,2016,Washington,Washington,0
+826,29,2016,Washington Wizards,Washington,1
+827,1,2017,Atlanta,Atlanta,0
+828,1,2017,Atlanta Hawks,Atlanta,1
+829,2,2017,Boston,Boston,0
+830,2,2017,Boston Celtics,Boston,1
+831,3,2017,Brooklyn,Brooklyn,0
+832,3,2017,Brooklyn Nets,Brooklyn,1
+833,4,2017,Charlotte,Charlotte,0
+834,4,2017,Charlotte Hornets,Charlotte,1
+835,5,2017,Chicago,Chicago,0
+836,5,2017,Chicago Bulls,Chicago,1
+837,6,2017,Cleveland,Cleveland,0
+838,6,2017,Cleveland Cavaliers,Cleveland,1
+839,7,2017,Dallas,Dallas,0
+840,7,2017,Dallas Mavericks,Dallas,1
+841,8,2017,Denver,Denver,0
+842,8,2017,Denver Nuggets,Denver,1
+843,9,2017,Detroit,Detroit,0
+844,9,2017,Detroit Pistons,Detroit,1
+845,10,2017,Golden State,Golden State,0
+846,10,2017,Golden State Warriors,Golden State,1
+847,11,2017,Houston,Houston,0
+848,11,2017,Houston Rockets,Houston,1
+849,12,2017,Indiana,Indiana,0
+850,12,2017,Indiana Pacers,Indiana,1
+851,30,2017,Los Angeles Clippers,Los Angeles,1
+852,13,2017,Los Angeles Lakers,Los Angeles,1
+853,14,2017,Memphis,Memphis,0
+854,14,2017,Memphis Grizzlies,Memphis,1
+855,15,2017,Miami,Miami,0
+856,15,2017,Miami Heat,Miami,1
+857,16,2017,Milwaukee,Milwaukee,0
+858,16,2017,Milwaukee Bucks,Milwaukee,1
+859,17,2017,Minnesota,Minnesota,0
+860,17,2017,Minnesota Timberwolves,Minnesota,1
+861,18,2017,New Orleans,New Orleans,0
+862,18,2017,New Orleans Pelicans,New Orleans,1
+863,19,2017,New York,New York,0
+864,19,2017,New York Knicks,New York,1
+865,19,2017,NY Knicks,New York,0
+866,20,2017,Oklahoma City,Oklahoma City,0
+867,20,2017,Oklahoma City Thunder,Oklahoma City,1
+868,21,2017,Orlando,Orlando,0
+869,21,2017,Orlando Magic,Orlando,1
+870,22,2017,Philadelphia,Philadelphia,0
+871,22,2017,Philadelphia 76ers,Philadelphia,1
+872,23,2017,Phoenix,Phoenix,0
+873,23,2017,Phoenix Suns,Phoenix,1
+874,24,2017,Portland,Portland,0
+875,24,2017,Portland Trail Blazers,Portland,1
+876,25,2017,Sacramento,Sacramento,0
+877,25,2017,Sacramento Kings,Sacramento,1
+878,26,2017,San Antonio,San Antonio,0
+879,26,2017,San Antonio Spurs,San Antonio,1
+880,27,2017,Toronto,Toronto,0
+881,27,2017,Toronto Raptors,Toronto,1
+882,28,2017,Utah,Utah,0
+883,28,2017,Utah Jazz,Utah,1
+884,29,2017,Washington,Washington,0
+885,29,2017,Washington Wizards,Washington,1
+886,1,2018,Atlanta,Atlanta,0
+887,1,2018,Atlanta Hawks,Atlanta,1
+888,2,2018,Boston,Boston,0
+889,2,2018,Boston Celtics,Boston,1
+890,3,2018,Brooklyn,Brooklyn,0
+891,3,2018,Brooklyn Nets,Brooklyn,1
+892,4,2018,Charlotte,Charlotte,0
+893,4,2018,Charlotte Hornets,Charlotte,1
+894,5,2018,Chicago,Chicago,0
+895,5,2018,Chicago Bulls,Chicago,1
+896,6,2018,Cleveland,Cleveland,0
+897,6,2018,Cleveland Cavaliers,Cleveland,1
+898,7,2018,Dallas,Dallas,0
+899,7,2018,Dallas Mavericks,Dallas,1
+900,8,2018,Denver,Denver,0
+901,8,2018,Denver Nuggets,Denver,1
+902,9,2018,Detroit,Detroit,0
+903,9,2018,Detroit Pistons,Detroit,1
+904,10,2018,Golden State,Golden State,0
+905,10,2018,Golden State Warriors,Golden State,1
+906,11,2018,Houston,Houston,0
+907,11,2018,Houston Rockets,Houston,1
+908,12,2018,Indiana,Indiana,0
+909,12,2018,Indiana Pacers,Indiana,1
+910,30,2018,Los Angeles Clippers,Los Angeles,1
+911,13,2018,Los Angeles Lakers,Los Angeles,1
+912,14,2018,Memphis,Memphis,0
+913,14,2018,Memphis Grizzlies,Memphis,1
+914,15,2018,Miami,Miami,0
+915,15,2018,Miami Heat,Miami,1
+916,16,2018,Milwaukee,Milwaukee,0
+917,16,2018,Milwaukee Bucks,Milwaukee,1
+918,17,2018,Minnesota,Minnesota,0
+919,17,2018,Minnesota Timberwolves,Minnesota,1
+920,18,2018,New Orleans,New Orleans,0
+921,18,2018,New Orleans Pelicans,New Orleans,1
+922,19,2018,New York,New York,0
+923,19,2018,New York Knicks,New York,1
+924,19,2018,NY Knicks,New York,0
+925,20,2018,Oklahoma City,Oklahoma City,0
+926,20,2018,Oklahoma City Thunder,Oklahoma City,1
+927,21,2018,Orlando,Orlando,0
+928,21,2018,Orlando Magic,Orlando,1
+929,22,2018,Philadelphia,Philadelphia,0
+930,22,2018,Philadelphia 76ers,Philadelphia,1
+931,23,2018,Phoenix,Phoenix,0
+932,23,2018,Phoenix Suns,Phoenix,1
+933,24,2018,Portland,Portland,0
+934,24,2018,Portland Trail Blazers,Portland,1
+935,25,2018,Sacramento,Sacramento,0
+936,25,2018,Sacramento Kings,Sacramento,1
+937,26,2018,San Antonio,San Antonio,0
+938,26,2018,San Antonio Spurs,San Antonio,1
+939,27,2018,Toronto,Toronto,0
+940,27,2018,Toronto Raptors,Toronto,1
+941,28,2018,Utah,Utah,0
+942,28,2018,Utah Jazz,Utah,1
+943,29,2018,Washington,Washington,0
+944,29,2018,Washington Wizards,Washington,1
+945,13,2003,Los Angeles,Los Angeles,0
+946,30,2003,Los Angeles,Los Angeles,0
+947,13,2004,Los Angeles,Los Angeles,0
+948,30,2004,Los Angeles,Los Angeles,0
+949,13,2005,Los Angeles,Los Angeles,0
+950,30,2005,Los Angeles,Los Angeles,0
+951,13,2006,Los Angeles,Los Angeles,0
+952,30,2006,Los Angeles,Los Angeles,0
+953,13,2007,Los Angeles,Los Angeles,0
+954,30,2007,Los Angeles,Los Angeles,0
+955,13,2008,Los Angeles,Los Angeles,0
+956,30,2008,Los Angeles,Los Angeles,0
+957,13,2009,Los Angeles,Los Angeles,0
+958,30,2009,Los Angeles,Los Angeles,0
+959,13,2010,Los Angeles,Los Angeles,0
+960,30,2010,Los Angeles,Los Angeles,0
+961,30,2011,Los Angeles,Los Angeles,0
+962,13,2011,Los Angeles,Los Angeles,0
+963,30,2012,Los Angeles,Los Angeles,0
+964,13,2012,Los Angeles,Los Angeles,0
+965,30,2013,Los Angeles,Los Angeles,0
+966,13,2013,Los Angeles,Los Angeles,0
+967,30,2014,Los Angeles,Los Angeles,0
+968,13,2014,Los Angeles,Los Angeles,0
+969,30,2015,Los Angeles,Los Angeles,0
+970,13,2015,Los Angeles,Los Angeles,0
+971,30,2016,Los Angeles,Los Angeles,0
+972,13,2016,Los Angeles,Los Angeles,0
+973,30,2017,Los Angeles,Los Angeles,0
+974,13,2017,Los Angeles,Los Angeles,0
+975,30,2018,Los Angeles,Los Angeles,0
+976,13,2018,Los Angeles,Los Angeles,0
+977,4,2004,Charlotte Bobcats,Charlotte,0
+978,4,2005,Charlotte Bobcats,Charlotte,0
+979,4,2006,Charlotte Bobcats,Charlotte,0
+980,4,2007,Charlotte Bobcats,Charlotte,0
+981,4,2008,Charlotte Bobcats,Charlotte,0
+982,4,2009,Charlotte Bobcats,Charlotte,0
+983,4,2010,Charlotte Bobcats,Charlotte,0
+984,4,2011,Charlotte Bobcats,Charlotte,0
+985,4,2012,Charlotte Bobcats,Charlotte,0
+986,4,2013,Charlotte Bobcats,Charlotte,0
+987,3,2003,New Jersey Nets,New Jersey,0
+988,3,2004,New Jersey Nets,New Jersey,0
+989,3,2005,New Jersey Nets,New Jersey,0
+990,3,2006,New Jersey Nets,New Jersey,0
+991,3,2007,New Jersey Nets,New Jersey,0
+992,3,2008,New Jersey Nets,New Jersey,0
+993,3,2009,New Jersey Nets,New Jersey,0
+994,3,2010,New Jersey Nets,New Jersey,0
+995,3,2011,New Jersey Nets,New Jersey,0
+996,18,2003,New Orleans Hornets,New Orleans,0
+997,18,2004,New Orleans Hornets,New Orleans,0
+998,18,2007,New Orleans Hornets,New Orleans,0
+999,18,2008,New Orleans Hornets,New Orleans,0
+1000,18,2009,New Orleans Hornets,New Orleans,0
+1001,18,2010,New Orleans Hornets,New Orleans,0
+1002,18,2011,New Orleans Hornets,New Orleans,0
+1003,18,2012,New Orleans Hornets,New Orleans,0
+1004,18,2005,No/oklahoma City Hornets,No/oklahoma,0
+1005,18,2006,No/oklahoma City Hornets,No/oklahoma,0
+1006,20,2003,Seattle Supersonics,Seattle,0
+1007,20,2004,Seattle Supersonics,Seattle,0
+1008,20,2005,Seattle Supersonics,Seattle,0
+1009,20,2006,Seattle Supersonics,Seattle,0
+1010,20,2007,Seattle Supersonics,Seattle,0
+1011,30,2003,L.A. Clippers,L.A. Clippers,0
+1012,30,2004,L.A. Clippers,L.A. Clippers,0
+1013,30,2005,L.A. Clippers,L.A. Clippers,0
+1014,30,2006,L.A. Clippers,L.A. Clippers,0
+1015,30,2007,L.A. Clippers,L.A. Clippers,0
+1016,30,2008,L.A. Clippers,L.A. Clippers,0
+1017,30,2009,L.A. Clippers,L.A. Clippers,0
+1018,30,2010,L.A. Clippers,L.A. Clippers,0
+1019,30,2011,L.A. Clippers,L.A. Clippers,0
+1020,30,2012,L.A. Clippers,L.A. Clippers,0
+1021,30,2013,L.A. Clippers,L.A. Clippers,0
+1022,30,2014,L.A. Clippers,L.A. Clippers,0
+1023,30,2015,L.A. Clippers,L.A. Clippers,0
+1024,30,2016,L.A. Clippers,L.A. Clippers,0
+1025,13,2003,L.A. Lakers,L.A. Lakers,0
+1026,13,2004,L.A. Lakers,L.A. Lakers,0
+1027,13,2005,L.A. Lakers,L.A. Lakers,0
+1028,13,2006,L.A. Lakers,L.A. Lakers,0
+1029,13,2007,L.A. Lakers,L.A. Lakers,0
+1030,13,2008,L.A. Lakers,L.A. Lakers,0
+1031,13,2009,L.A. Lakers,L.A. Lakers,0
+1032,13,2010,L.A. Lakers,L.A. Lakers,0
+1033,13,2011,L.A. Lakers,L.A. Lakers,0
+1034,13,2012,L.A. Lakers,L.A. Lakers,0
+1035,13,2013,L.A. Lakers,L.A. Lakers,0
+1036,13,2014,L.A. Lakers,L.A. Lakers,0
+1037,13,2015,L.A. Lakers,L.A. Lakers,0
+1038,13,2016,L.A. Lakers,L.A. Lakers,0
