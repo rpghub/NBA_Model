@@ -103,6 +103,36 @@ pbp_elo <- pbp_elo[pos > 0, .(match_id, home_roster_id, visit_roster_id
                               , opp_elo_start = 1300, opp_elo = 1300
                               , est = .5, error = 0, season_year, pbp_min)]
 
+# add days of rest
+rest <- rbind(pbp_elo[, .(home = 1)
+                      , .(team_id = home_team_id, game_date
+                          , match_id)]
+              , pbp_elo[, .(home = 0)
+                        , .(team_id = visit_team_id, game_date
+                            , match_id)])
+
+rest <- rest[order(team_id, game_date)]
+rest[, game_date_prior := shift(game_date, 1L, "lag", fill = 0), .(team_id)]
+rest[game_date - game_date_prior == 1
+     , rest := 1]
+rest[game_date - game_date_prior == 2
+     , rest := 2]
+rest[game_date - game_date_prior == 3
+     , rest := 3]
+rest[game_date - game_date_prior > 3
+     , rest := 4]
+
+rest <- cbind(rest[order(match_id)
+                   ][home == 1
+                     , .(match_id, home_team_id = team_id, home_rest = rest)]
+              , rest[order(match_id)
+                     ][home == 0
+                       , .( visit_team_id = team_id, visit_rest = rest)])
+
+setkey(rest, home_team_id, visit_team_id, match_id)
+setkey(pbp_elo, home_team_id, visit_team_id, match_id)
+pbp_elo <- pbp_elo[rest]
+
 # save model to model directory
 setwd("C:/Projects/NBA_Model/Models ")
 write.csv(pbp_elo, "pbp_model.csv", row.names = FALSE)
