@@ -6,8 +6,8 @@ CREATE PROCEDURE datetable()
 BEGIN
 DECLARE strt date;
 DECLARE season integer;
-SET strt = str_to_date('1/1/2002','%c/%e/%Y');
-SET season = 2002;
+SET strt = str_to_date('1/1/2001','%c/%e/%Y');
+SET season = 2001;
 
 WHILE strt < str_to_date('1/1/2024','%c/%e/%Y') DO
 	IF month(strt) >= 10.0 THEN 
