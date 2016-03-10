@@ -1,7 +1,7 @@
 /***   Append scrape results table to new table (games)  ***/
 
 USE stg;
-INSERT INTO games(match_id,game_date,home_team,home_team_score
+INSERT IGNORE INTO games(match_id,game_date,home_team,home_team_score
 	,visit_team, visit_team_score)
 SELECT match_id
 	,date
@@ -11,17 +11,14 @@ SELECT match_id
     ,visit_team_score
 FROM stggames;
 
-
 /***   Load ref_teams   ***/
-
 USE stg;
-LOAD DATA INFILE 'teams.csv' INTO TABLE ref_teams
+LOAD DATA INFILE 'C:/Projects/NBA_Model/DB/teams.csv' INTO TABLE ref_teams
   FIELDS TERMINATED BY ',' ENCLOSED BY '"'
   LINES TERMINATED BY '\r\n'
   IGNORE 1 LINES;
 
 /***   Load ref_action   ***/
-
 USE stg;
 LOAD DATA INFILE 'actions.csv' INTO TABLE ref_action
   FIELDS TERMINATED BY ',' ENCLOSED BY '"'
@@ -29,7 +26,6 @@ LOAD DATA INFILE 'actions.csv' INTO TABLE ref_action
   IGNORE 1 LINES;
 
 /***   Append scrape results table to new table (play_by_play)  ***/
-
 USE stg;
 INSERT INTO play_by_play(match_id,
   game_time,
@@ -66,30 +62,98 @@ set a.pbp_id = f.pbp_id_new;
 
 drop table pbp_fix;
 
-/***   Append scrape results table to new table (boxscore)   ***/
+/*** manual corrections to ref_player   ***/
+insert into stgbox_player values(str_to_date('1990-01-06', '%Y-%m-%d'), 'University of Cincinnati', -1, -1, NULL, -1, 1, 76, 'Sean Kilpatrick', 'S. Kilpatrick', 'http://espn.go.com/nba/player/_/id/2488689', 210);
+insert into stgbox_player values(str_to_date('1977-03-09', '%Y-%m-%d'), NULL, -1, -1, NULL, -1, 1, 84, 'Boniface Dong', 'B. Napos;Do', 'http://espn.go.com/nba/player/_/id/2874/boniface-naposdong', 198);
 
-INSERT IGNORE INTO stg.boxscore(match_id,team,player,min_,fgm_a,pm3_a,ftm_a,oreb
-,dreb,reb,ast,stl,blk,to_,pf,pts)
-SELECT bs.id AS match_id,
-    bs.team AS team,
-    bs.player AS player,
-    bs.`MIN` AS min_,
-    bs.`FGM-A` AS fgm_a,
-    bs.`3PM-A` AS pm3_a,
-    bs.`FTM-A` AS ftm_a,
-    bs.OREB AS oreb,
-    bs.DREB AS dreb,
-    bs.REB AS reb,
-    bs.AST AS ast,
-    bs.STL AS stl,
-    bs.BLK AS blk,
-    bs.`TO` AS to_,
-    bs.PF AS pf,
-    CAST(bs.PTS AS UNSIGNED INT) AS pts
-FROM stg.stgboxscore bs;
+drop table if exists temp_fix_players ;
+create table temp_fix_players as( 
+select b.player
+from stgbox_player b
+  left join ref_player p on b.player = p.player
+where p.player is null and b.player_lname is not null);
+
+insert into ref_player(player_id, player, isDefault, cnt)
+select distinct p.player_id, f.player, 0, 0
+from ref_player p
+  inner join temp_fix_players f on f.player like concat('%', p.player, '%');
+
+select distinct p.player_id, f.player, 0, 0, p.player
+from ref_player p
+  inner join temp_fix_players f 
+  on p.player like concat('%', right(f.player, length(f.player) - locate(' ', f.player)) , '%');
+
+insert into ref_player(player_id, player, isDefault, cnt) values(794, 'JJ Hickson', 0, 0);
+
+set @player_id = (select max(player_id) from ref_player) + 1;
+insert into ref_player(player_id, player, isDefault, cnt)
+select @player_id := @player_id + 1 , f.player, 1, 0
+from temp_fix_players f;
+
+select count(*) cnt, player 
+from ref_player 
+group by player 
+having cnt > 1;
+
+select count(*) cnt, player_id 
+from ref_player 
+where isDefault = 1 
+group by player_id 
+having cnt > 1;
+
+drop table if exists temp_fix_players ;
+
+/***   Append scrape results table to new table (player)   ***/
+create table stgboxscore_backup as(select * from stgboxscore);
+create table stgbox_player_backup as(select * from stgbox_player);
+
+
+alter table stgboxscore change url url varchar(70);
+alter table stgbox_player change url url varchar(70);
+alter table stgbox_player change player player varchar(70);
+
+create index url_idx on stgboxscore(url);
+create index url_idx on stgbox_player(url);
+create index player_idx on stgbox_player(player);
+
+insert into player
+select distinct p.player_id, str_to_date(b.bdate, '%Y-%m-%d') bdate
+  , b.college, b.draft_num, b.draft_rnd, b.draft_team
+  , b.draft_year, b.exp, b.height, b.player, b.player_lname
+  , b.url, b.weight
+from stgboxscore bs
+  inner join stgbox_player b on bs.url = b.url
+  inner join games g on bs.id = g.match_id
+  inner join ref_date d on g.game_date = d.game_date
+  inner join ref_teams t on bs.team = t.team_name and d.season_year = t.season_year
+  inner join ref_player p on b.player = p.player and t.team_id = p.team_id and p.season_year = d.season_year;
+
+  
+/***   Append scrape results table to new table (boxscore)   ***/
+INSERT INTO boxscore(match_id, team,team_id, player, player_id, position, starter, min_, fgm
+, fga, pm3, pm3_a, ftm, fta, oreb
+, dreb, reb, ast, stl, blk, tov, pf, pts, pm)
+select distinct bs.id match_id, bs.team, t.team_id, bs.player, p.player_id
+   , bs.position
+   , bs.starter
+   , bs.MIN
+   , left(bs.FG, locate('-', bs.FG) - 1) fgm
+   , right(bs.FG, length(bs.FG) - locate('-', bs.FG)) fgm_a
+   , left(bs.3PT, locate('-', bs.3PT) - 1) pm3
+   , right(bs.3PT, length(bs.3PT) - locate('-', bs.3PT)) pm3_a
+   , left(bs.FT, locate('-', bs.FT) - 1) ftm
+   , right(bs.FT, length(bs.FT) - locate('-', bs.FT)) ftm_a
+   , bs.oreb, bs.dreb, bs.reb, bs.ast, bs.stl, bs.blk, bs.to
+   , bs.pf, bs.pts
+   , case when bs.`+/-` = '--' then -1 else bs.`+/-` end pm
+from stgboxscore bs
+  inner join games g on bs.id = g.match_id
+  inner join ref_date d on g.game_date = d.game_date
+  inner join ref_teams t on d.season_year = t.season_year and t.team_name = bs.team
+  left join player p on bs.url = p.url
+where bs.MIN != '--' and bs.min is not null 
 
 /***   Append scrape results table to new table (team_search)  ***/
-
 USE stg;
 INSERT INTO team_search(prefix_1, prefix_2, team, url)
 SELECT prefix_1,
